@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/background.png");
+    font-family: 'Lato', helvetica, arial, sans-serif;
+}
+
+li {
+    display: flex;
+}
+
+
+/* --------------------------------------- */
+
+#boxHeader {
+    height: 104px;
+    width: 100%;
+    background-color: rgb(234, 17, 173);  
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 42px;
+}
+
+.titreSite {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav 
+{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.cadrePrincipe {
+    border: 1px solid pink;
+    background-color: pink;
+    padding: 42px;
+}
+
+.cadrePrincipe:hover {
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.cadreLicornes {
+    background-color: rgb(234, 17, 173);
+    border: 1px solid rgb(234, 17, 173);
+    padding: 42px;
+    margin-left: -15px;
+}
+
+.cadreLicornes:hover {
+    background-color: purple;
+    border: 1px solid purple;
+    
+}
+
+.cadreTrouver {
+    background-color: rgb(234, 17, 173);
+    border: 1px solid rgb(234, 17, 173);
+    padding: 42px;
+    margin-left: -15px;
+}
+
+.cadreTrouver:hover {
+    background-color: purple;
+    border: 1px solid purple;
+}
+/* ----------------------------------------- */
+.rainbow {
+    position: relative;
+    top: 20px;
+    left: 500px;
+
+}
+
+.textRainbow {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+/* ----------------------------------------- */
+#mainCadreContainer {
+    height: 167vh;
+    width: 61%;
+    background-color: white;
+    box-shadow: 0px 0px 8px;
+    left:257px;
+    top: -60px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: 95%;
+    top: 40px;
+    left: 25px;
+}
+
+.imgLicornes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: -7px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: black;
+    opacity: 0.9;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.nousTrouver {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adresseMail {
+    margin-left: 22px;
+}
+
+.adresseList {
+    list-style: none;
+    margin-left: -40px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    height: 38px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 17, 173);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------- */
+footer {
+    height: 59px;
+    background-color: rgb(234, 17, 173);  
+    display: flex;
+    justify-content: end;
+}
+
+.textFooter {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
